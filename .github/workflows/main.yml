@@ -23,4 +23,4 @@ jobs:
       run: npm install -g newman
 
     - name: Run API Tests Automatically
-      run: newman run "DummyJSON - CRUD Operations.json"
+      run: newman run "DummyJSON - CRUD Operations.postman_collection.json"
